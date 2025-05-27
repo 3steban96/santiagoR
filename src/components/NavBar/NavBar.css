@@ -1,0 +1,36 @@
+.navContainer {
+  background: linear-gradient(90deg, #7af0ff, #ffffff);
+  transition: background 0.3s ease;
+}
+
+.nav-link-custom {
+  color: #333 !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.nav-link-custom:hover {
+  color: #007bff !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #212529 !important;
+}

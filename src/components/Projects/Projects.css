@@ -1,0 +1,26 @@
+.project-container {
+  background-color: #fefefe;
+}
+
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #eaeaea;
+}

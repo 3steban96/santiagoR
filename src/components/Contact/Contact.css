@@ -1,0 +1,29 @@
+.contact-container {
+  background-color: #fefefe;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+form label {
+  font-weight: 600;
+}
+
+form .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+
+form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+}
+
+button[type="submit"] {
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
